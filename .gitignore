@@ -1,0 +1,29 @@
+# --- SEGURIDAD ---
+# Nunca subas el archivo .env a GitHub, contiene tus contraseñas
+.env
+
+# --- PYTHON ---
+# Archivos generados automáticamente por Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# --- ENTORNOS VIRTUALES ---
+# Si usas venv o env, no lo subas (quien descargue el repo instalará sus propias librerías)
+venv/
+env/
+ENV/
+
+# --- RESULTADOS DEL SCRIPT ---
+# Archivos CSV que genera el programa (no hace falta llenar el repo de datos)
+*.csv
+# Si prefieres subir algún CSV de ejemplo, descomenta la línea anterior y comenta esta:
+# discos_faltantes.csv
+# aoty_scrape.csv
+
+# --- SISTEMA OPERATIVO ---
+# Archivos basura de Mac y Windows
+.DS_Store
+Thumbs.db

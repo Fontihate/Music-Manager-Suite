@@ -6,8 +6,4 @@ services:
     container_name: music-manager-suite
     ports:
       - "8501:8501"
-    # Reinicio automático: Si se cae o reinicias el PC, se vuelve a encender solo
     restart: unless-stopped
-    # Aquí podríamos montar volúmenes si quisieras que los CSV se guarden fuera del contenedor
-    # volumes:
-    #   - ./data:/app/data

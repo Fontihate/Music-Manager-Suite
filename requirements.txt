@@ -1,2 +1,7 @@
+streamlit
+pandas
 cloudscraper
 beautifulsoup4
+selenium
+requests
+python-dotenv
